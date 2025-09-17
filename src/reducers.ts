@@ -11,7 +11,7 @@ const sessionReducer: types.IReducerSpec = {
       util.setSafe(state, ['showDialog'], payload),
   },
   defaults: {
-  showDialog: false,
+    showDialog: false,
   },
 };
 

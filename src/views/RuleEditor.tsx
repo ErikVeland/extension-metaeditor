@@ -129,7 +129,7 @@ class RuleEditor extends ComponentEx<IRule, IComponentState> {
 
     const md5state = md5 === '' ? undefined
       : md5 === '...' ? 'pending'
-        : md5.match(MD5Expression) ? 'success' : 'error';
+      : md5.match(MD5Expression) ? 'success' : 'error';
 
     return (
       <form>
